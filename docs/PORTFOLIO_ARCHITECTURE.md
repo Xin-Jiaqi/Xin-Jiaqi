@@ -62,3 +62,14 @@ External database structures must include source, version, identifier, retrieval
 Do not create separate repositories for multilayer, ferroelectric states, sliding ferroelectricity, or high-throughput screening yet. First validate them as modules in the two application repositories. Split only when a module can run independently, has stable schemas and tests, and has either two downstream consumers or an independent release need.
 
 Rename `extension-to-BSF` and `heterojunction` only after their validated replacements pass end-to-end fixtures; GitHub redirects can then preserve links.
+
+## 7. Public entry points
+
+The dependency graph and the community-facing product map are intentionally different. The two foundations optimize for stable reuse, while a small number of flagships explain complete user outcomes.
+
+- **Near-term flagship:** `batch-symmetry-checker`, because it can take a directory of structures to an auditable report without exposing unpublished application methods.
+- **Citable reference asset:** `group-theory-operations-toolkit`, positioned as verified symmetry data and a machine-readable API.
+- **Shared infrastructure:** `materials-structure-core`, promoted through downstream integrations and contracts rather than unrelated end-user features.
+- **Controlled research applications:** bilayer and heterostructure tools remain unpromoted alphas until scientific, ownership, licensing and disclosure gates pass.
+
+This prevents star and maintenance fragmentation: shared capability moves downward, complete user stories remain upward, and speculative research stays private until it has a tested public boundary.
