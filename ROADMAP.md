@@ -4,12 +4,13 @@
 
 - [x] Establish separate structure-core, group-operation, benchmark, and batch-analysis repositories.
 - [x] License the four public foundation/analysis repositories and add automated tests.
-- [ ] Complete release-preparation fixes: installable benchmark CLI, versioned schemas, path-safe reports, and latest-stable Python CI.
-- [ ] Publish reviewed prereleases for the three code foundations; keep the benchmark dataset release distinct from its Python package.
+- [x] Complete release-preparation fixes: installable benchmark CLI, versioned schemas, path-safe reports, and latest-stable Python CI.
+- [x] Publish reviewed prereleases for the three code foundations and the benchmark integration update.
 
 ## Next
 
-- [ ] Define deterministic small/medium/full benchmark splits and cross-repository integration tests.
+- [x] Define a deterministic public smoke split and use it in cross-repository integration tests.
+- [ ] Extend the smoke split into reviewed small/medium/full and scientific-oracle benchmark tiers.
 - [ ] Add `StructureRecord` and provenance adapters to the batch analyzer without copying parsers.
 - [ ] Expand the group-operation registry only with fixed basis/setting, closure tests, and documented provenance.
 - [ ] Turn the validated Python 3 stacking and heterostructure prototypes into one public-safe, reusable application after ownership and disclosure review.
