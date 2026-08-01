@@ -10,9 +10,10 @@
 ## Next
 
 - [x] Define a deterministic public smoke split and use it in cross-repository integration tests.
-- [ ] Extend the smoke split into reviewed small/medium/full and scientific-oracle benchmark tiers.
-- [ ] Add `StructureRecord` and provenance adapters to the batch analyzer without copying parsers.
-- [ ] Expand the group-operation registry only with fixed basis/setting, closure tests, and documented provenance.
+- [x] Extend the smoke split into reviewed small/medium tiers and a recomputable structural-oracle layer.
+- [x] Add a `StructureRecord` adapter to the batch analyzer without copying parsers.
+- [x] Add generated $M_+$/$M_-$ matrices, schema, API and all-operation homomorphism tests.
+- [ ] Expand the group-operation registry to all 32 crystallographic point groups using fixed basis/setting and closure tests.
 - [ ] Turn the validated Python 3 stacking and heterostructure prototypes into one public-safe, reusable application after ownership and disclosure review.
 - [ ] Prepare version-frozen design, user, dependency, and test evidence for software-copyright registration candidates.
 
