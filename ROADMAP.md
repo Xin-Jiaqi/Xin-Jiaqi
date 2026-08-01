@@ -13,7 +13,8 @@
 - [x] Extend the smoke split into reviewed small/medium tiers and a recomputable structural-oracle layer.
 - [x] Add a `StructureRecord` adapter to the batch analyzer without copying parsers.
 - [x] Add generated $M_+$/$M_-$ matrices, schema, API and all-operation homomorphism tests.
-- [ ] Expand the group-operation registry to all 32 crystallographic point groups using fixed basis/setting and closure tests.
+- [x] Expand the group-operation registry to all 32 crystallographic point groups and add validated spatial invariant solvers for shift current, SHG, and circular injection current.
+- [ ] Integrate the invariant solver into the private NLO workflow with frozen tensor conventions and open reference fixtures.
 - [ ] Turn the validated Python 3 stacking and heterostructure prototypes into one public-safe, reusable application after ownership and disclosure review.
 - [ ] Prepare version-frozen design, user, dependency, and test evidence for software-copyright registration candidates.
 
