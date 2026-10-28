@@ -11,4 +11,8 @@ I build reusable tools for crystal structures, symmetry, and layered-material re
 
 The foundation and analysis repositories are public prereleases with explicit tests, provenance, and repository-level rights. Batch Symmetry Checker consumes the shared structure contract; the benchmark provides nested 12/64/256 regression tiers; and Group Theory Operations v0.3.0 covers all 32 crystallographic point groups plus spatial invariant bases for shift current, SHG, and circular injection current. Python 3 application candidates remain draft reviews until licensing and scientific-scope review are complete; unpublished workflows and research data remain private.
 
+## Academic Service
+
+- 曾受邀担任 Wiley 旗下 SCI 期刊 *Luminescence* 的审稿人（2026）。
+
 See the [roadmap](ROADMAP.md) and [governance rules](GOVERNANCE.md).
